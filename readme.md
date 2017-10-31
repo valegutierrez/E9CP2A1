@@ -23,11 +23,13 @@ Se pide:
 
 - Crear una clase *Table* cuyo constructor reciba el nombre de la mesa y las recaudaciones correspondientes de cada día.
 
-- Crear un método que permita leer el archivo e **instanciar una mesa por línea del archivo**.
+	> Hint: El constructor debe recibir 5 argumentos. Uno para el nombre de la mesa y los demás para cada recaudación correspondiente a esa mesa.
+
+- Crear un método que permita leer el archivo e **instanciar un objeto de la clase *Table* por cada línea del archivo**.
 
 - Crear métodos que permitan:
 
-    - Conocer el **mayor** valor recaudado, y a que mesa y día corresponde.
+    - Conocer el **mayor** valor recaudado, por mesa, y el nombre de la mesa y día corresponde (día 1, día 2, día 3 o día 4).
 
     - Calcular el promedio total de lo recaudado por todas las mesas en todos los días.
 
@@ -45,9 +47,9 @@ Marketing, 2017-03-14, 2017-10-20
 
 Se pide:
 
-- Crear una clase *Course* cuyo constructor reciba el nombre y las fechas de inicio y termino de cada curso.
+- Crear una clase *Course* cuyo constructor reciba el nombre del curso y las fechas de inicio y término.
 
-- Crear un método que permita leer el archivo e **instanciar una mesa por línea del archivo**.
+- Crear un método que permita leer el archivo y **crear una instancia de la clase Course por línea del archivo**.
 
 - Crear métodos que permitan:
 
@@ -63,7 +65,7 @@ Se pide:
 
 Se tiene un array que contiene los números de una ruleta.
 
-~~~rb
+~~~
 r = (1..10).to_a
 ~~~
 
